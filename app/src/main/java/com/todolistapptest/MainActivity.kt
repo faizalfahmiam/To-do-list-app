@@ -312,6 +312,7 @@ class MainActivity : AppCompatActivity() {
                 )
                 taskViewModel
                     .updateTask(updateTask)
+                if(task.status) task.let(alarmSchedulerImpl::cancel)
             }
         }
         mainBinding.taskRV.adapter = taskListAdapter
