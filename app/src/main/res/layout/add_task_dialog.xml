@@ -87,7 +87,7 @@
                 android:id="@+id/edTime"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Date and Time">
+                android:hint="Enter due date time">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edDateTime"

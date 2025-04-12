@@ -33,7 +33,7 @@ class TaskListAdapter(
             viewTaskListLayoutBinding.cbStatus.isChecked = task.status
             val dateFormat = SimpleDateFormat("dd-MMM-yyyy HH:mm", Locale.getDefault())
 
-            viewTaskListLayoutBinding.dateTxt.text ="Do date: "+ dateFormat.format(task.date)
+            viewTaskListLayoutBinding.dateTxt.text ="due date time: "+ dateFormat.format(task.date)
 
             viewTaskListLayoutBinding.cbStatus.setOnCheckedChangeListener { compoundButton, b ->
                 if (adapterPosition != -1) {
