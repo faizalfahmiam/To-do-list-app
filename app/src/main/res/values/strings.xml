@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">To Do List App Test</string>
+    <string name="permission_denied">Permission denied!</string>
+    <string name="request_msg"><![CDATA[To send a notification when alarm is triggered allow AlarmManager to send a notification. Tap Settings > Permissions, and turn Notifications on.]]></string>
+    <string name="settings">Settings</string>
+    <string name="close">Close</string>
+</resources>
